@@ -3,19 +3,8 @@
  * @file
  * Copy a directory and replaces $string_in with $string_out
  *
- * What is does:
- *  renames directory names, file names, strings in text files
- *
- * Why:
- *  Copy a Drupal feature and rename it for a specific project.
- *  Create a build and afterwards rename it.
- *
- * Usage:
- *  1. Navigate to parent folder of the project that shall be renamed
- *  (../sites/all when your project is ../sites/all/project_to_be_renamed
- *  2. Call this script
- *
- * php -f "~/Scripts/Drupal-Rename-Project.php" cleanup_module unused_modules
+ * @see
+ * README.md
  */
 
 // Initialize, global variables.
